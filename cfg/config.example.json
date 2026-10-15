@@ -1,0 +1,19 @@
+{
+  "bitbucket": {
+    "url": "https://your-bitbucket-domain.com",
+    "username": "your_username",
+    "token": "your_personal_access_token",
+    "dest_dir": "repos",
+    "log_dir": "logs"
+  },
+  "projects": [
+    {
+      "key": "PROJ1",
+      "name": "Первый проект"
+    },
+    {
+      "key": "PROJ2",
+      "name": "Второй проект"
+    }
+  ]
+}

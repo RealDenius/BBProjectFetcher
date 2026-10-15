@@ -1,0 +1,21 @@
+# Конфиги с секретами (токены, пароли)
+cfg/*.json
+!cfg/*.example.json
+
+# Склонированные репозитории (но оставляем .gitkeep)
+repos/*
+!repos/.gitkeep
+
+# Логи (но оставляем .gitkeep)
+logs/*
+!logs/.gitkeep
+
+# macOS
+.DS_Store
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
