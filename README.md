@@ -1,5 +1,9 @@
 # BB Project Fetcher
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub issues](https://img.shields.io/github/issues/RealDenius/BBProjectFetcher.svg)](https://github.com/RealDenius/BBProjectFetcher/issues)
+[![GitHub stars](https://img.shields.io/github/stars/RealDenius/BBProjectFetcher.svg)](https://github.com/RealDenius/BBProjectFetcher/stargazers)
+
 Инструмент для массового клонирования и обновления всех репозиториев из проектов в корпоративном BitBucket.
 
 ## Возможности
@@ -17,9 +21,9 @@
 ```
 .
 ├── cmd/                    # Скрипты
-│   ├── clone_all.sh       # Клонирование репозиториев
-│   ├── fetch_all.sh       # Обновление репозиториев
-│   └── run_all.sh         # Скрипт-оболочка (клонирование + обновление)
+│   ├── clone_all.sh        # Клонирование репозиториев
+│   ├── fetch_all.sh        # Обновление репозиториев
+│   └── run_all.sh          # Скрипт-оболочка (клонирование + обновление)
 ├── cfg/                    # Конфигурационные файлы
 │   └── config.json
 ├── repos/                  # Директория для клонированных репозиториев
